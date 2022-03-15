@@ -17,7 +17,7 @@
         {% for item in objects_list %}
         <li>
             {{item.name}} <span>Количество курсов: {{item.course_count()}}</span>
-			<a href="/courses-list/?id={{item.id}}">Показать курсы</a>
+			<a href="/course-list/?id={{item.id}}">Показать курсы</a>
         </li>
         {% endfor %}
 	</div>
